@@ -1,0 +1,33 @@
+.container {
+    display: grid;
+    /* grid-gap: 1rem; */
+    grid-template-areas: 
+    'table1 table1 table2 table2';
+} 
+
+table {
+    margin-top: 35px;
+    /* margin-left: 50%; */
+    /* border: 2px solid black; */
+}
+
+.table1 {
+    grid-area: table1;
+    transition: 2s;
+    border-right: 3px solid black; 
+}
+
+.table1:hover {
+    color: white;
+    background-color: #000;
+}
+
+.table2 {
+    grid-area: table2;
+    transition: 2s;
+}
+
+.table2:hover {
+    color: #fff;
+    background-color: #000;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+    <!-- <link rel="stylesheet" href="/School Projects/limitation-and-strenghts-of-computers/strengths and limitations of computers.css"> -->
+    <style>
+        .container {
+    display: grid;
+    /* grid-gap: 1rem; */
+    grid-template-areas: 
+    'table1 table1 table2 table2';
+} 
+
+table {
+    margin-top: 35px;
+    /* margin-left: 50%; */
+    /* border: 2px solid black; */
+}
+
+.table1 {
+    grid-area: table1;
+    transition: 2s;
+    border-right: 3px solid black; 
+}
+
+.table1:hover {
+    color: white;
+    background-color: #000;
+}
+
+.table2 {
+    grid-area: table2;
+    transition: 2s;
+}
+
+.table2:hover {
+    color: #fff;
+    background-color: #000;
+}
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <table class="table1">
+            <tr>
+                <th>limitations of computers</th>
+            </tr>
+            <tr>
+                <td>1) Computer cannot operate without the instructions given by humans. It is programmed to work
+                    effectively, fast and accurately. Computer cannot think by itself and does not have common sense. It
+                    is totally dependent on humans.</td>
+            </tr>
+            <tr>
+                <td>2) Depend on users input</td>
+            </tr>
+            <tr>
+                <td>3) Computer have no imagination</td>
+            </tr>
+            <tr>
+                <td>4) Cannot detect error in logic</td>
+            </tr>
+        </table>
+        <table class="table2">
+            <tr>
+                <th>Strengh of computers</th>
+            </tr>
+            <tr>
+                <td>1) The computer’s efficiency is based on three technical characteristics; these are an ability to
+                    calculate, data storage capacity and speed. These characteristics make the computer a powerful and
+                    useful tool.</td>
+            </tr>
+            <tr>
+                <td>2) A computer is more faster as compared to human beings</td>
+            </tr>
+            <tr>
+                <td>3) computer are more accurate than a human</td>
+            </tr>
+            <tr>
+                <td>4) computer is also a type of automatic machine</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
